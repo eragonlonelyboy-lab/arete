@@ -1,5 +1,7 @@
 # ARETE
 
+![Arete, goddess of excellence, measuring five automata of different sizes against one standard line of light](assets/hero.png)
+
 **The operating standard for AI agents. Five gates, any model.**
 
 I am the standard, not the model. Point any agent at me, Claude or Codex or whatever ships next, and it works the way the best one does: scope before work, evidence before reasoning, adversarial before committing, verification before "done", calibration before reporting. The intelligence stays the model's. The discipline becomes yours, permanently, on every substrate you run.
