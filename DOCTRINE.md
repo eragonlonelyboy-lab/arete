@@ -38,6 +38,8 @@ A gate must pass before the next opens. When a task stalls or a result surprises
 - "It ran" is not verification. Verify at the layer of the claim: claim "output is correct", look at the output; claim "page renders", look at the page. Exit code 0 only proves the layer below the claim.
 - Use evidence you did not generate. Re-open the file. Run the code. Screenshot the page and read it. Diff before and after. Count the things you claimed to count.
 - Prefer an independent verifier over self-critique. A model grading its own work sees its own reasoning trail and prefers conclusions consistent with what it already wrote. A separate check sees only the artifact and the rubric.
+- Name verifier independence honestly: `self`, `fresh-same-model`, `different-model-family`, or `deterministic`. High-stakes judgment prefers a different model family plus deterministic proof. Agreement between models is not evidence by itself.
+- A verifier receives the artifact, source and rubric, not the implementor's persuasive reasoning. Record verifier identity and the proof it reran.
 - Sample the tails: first item, last item, weirdest item. Happy-path spot checks hide the failures that matter.
 - Treat good news as suspect. A too-easy pass or an all-clean sweep means verification is broken until you can explain why the result is real.
 - Zero-context test for anything user-facing: would someone with none of this session's context understand it and act on it?
