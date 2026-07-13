@@ -1,10 +1,11 @@
 {
-  "name": "arete",
+  "name": "demiurge-arete",
   "version": "0.1.0",
   "description": "The operating standard for AI agents: five gates, any model. Wire the discipline into your agent files, then prove it moved behavior with a falsifiable bench.",
   "bin": { "arete": "bin/arete.js" },
   "scripts": { "test": "node test/smoke.js" },
   "license": "MIT",
   "repository": { "type": "git", "url": "https://github.com/eragonlonelyboy-lab/arete.git" },
-  "engines": { "node": ">=18" }
+  "engines": { "node": ">=18" },
+  "files": ["bin", "templates", "docs", "CLAUDE.md"]
 }
