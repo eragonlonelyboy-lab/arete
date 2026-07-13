@@ -1,6 +1,6 @@
 {
   "name": "demiurge-arete",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The operating standard for AI agents: five gates, any model. Wire the discipline into your agent files, then prove it moved behavior with a falsifiable bench.",
   "bin": { "arete": "bin/arete.js" },
   "scripts": { "test": "node test/smoke.js" },
