@@ -14,7 +14,7 @@ The market answer to this is the prompt-pack: an essay of exhortations nobody ca
 
 ## Quickstart
 
-> **From npm:** `npm install -g demiurge-arete`, then `arete init` (dry-run) and `arete init --apply` — or `npx demiurge-arete init` with no install. Source build below.
+> **From npm:** `npm install -g demiurge-arete`, then `arete init` (dry-run) and `arete init --apply` Or without installing: `npx demiurge-arete init`. Source build below.
 
 ```
 git clone https://github.com/eragonlonelyboy-lab/arete
